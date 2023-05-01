@@ -1,6 +1,13 @@
 import { PropTypes } from 'prop-types';
 
 const TodoItem = ({ todo, setTodos, delTodo }) => {
+  const completedStyle = {
+    fontStyle: 'italic',
+    color: '#595959',
+    opacity: 0.4,
+    textDecoration: 'line-through',
+  };
+
   const handleChange = (id) => {
     setTodos((prevState) =>
       prevState.map((todo) => {
@@ -15,14 +22,16 @@ const TodoItem = ({ todo, setTodos, delTodo }) => {
     );
   };
   return (
-    <li>
-      <input
-        type="checkbox"
-        checked={todo.completed}
-        onChange={() => handleChange(todo.id)}
-      />
-      <button onClick={() => delTodo(todo.id)}>Delete</button>
-      {todo.title}
+    <li className="item">
+      <div className="content">
+        <input
+          type="checkbox"
+          checked={todo.completed}
+          onChange={() => handleChange(todo.id)}
+        />
+        <button onClick={() => delTodo(todo.id)}>Delete</button>
+        <span style={todo.completed ? completedStyle : null}>{todo.title}</span>
+      </div>
     </li>
   );
 };

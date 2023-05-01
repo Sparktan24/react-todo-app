@@ -4,10 +4,12 @@ import './App.css';
 
 function App() {
   return (
-    <>
-      <Header />
-      <TodosLogic />
-    </>
+    <div className="wrapper">
+      <div className="todos">
+        <Header />
+        <TodosLogic />
+      </div>
+    </div>
   );
 }
 

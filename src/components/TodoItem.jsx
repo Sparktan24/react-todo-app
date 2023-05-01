@@ -30,6 +30,7 @@ const TodoItem = ({ todo, setTodos, delTodo }) => {
 TodoItem.propTypes = {
   todo: PropTypes.object,
   setTodos: PropTypes.func,
+  delTodo: PropTypes.func,
 };
 
 export default TodoItem;

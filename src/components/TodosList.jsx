@@ -21,6 +21,7 @@ const TodosList = ({ todos, setTodos, delTodo }) => {
 TodosList.propTypes = {
   todos: PropTypes.array,
   setTodos: PropTypes.func,
+  delTodo: PropTypes.func,
 };
 
 export default TodosList;

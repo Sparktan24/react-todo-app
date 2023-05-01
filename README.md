@@ -32,8 +32,8 @@
 "React todo app" is a website where you can add, edit and delete tasks:
 
 - Create tasks in a list
-- Edit them.
-- Delete them.
+- Edit elements of the list.
+- Delete elements of the list.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -57,7 +57,6 @@
 
 - **Git Flow**
 - **Good HTML, CSS and JS practices**
-- **ES6, modules**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -114,16 +113,6 @@ You can deploy this project using:
 - GitHub: [@Sparktan24](https://github.com/Sparktan24)
 - Twitter: [@Sparktan1](https://twitter.com/Sparktan1)
 - LinkedIn: [Jesus Molina](https://www.linkedin.com/in/jesus-molina-2b104424a/)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FUTURE FEATURES -->
-
-## 🔭 Future Features <a name="future-features"></a>
-
-- [ ] **[A functional calculator will be added later]**
-- [ ] **[A page with info will be built using SPA]**
-- [ ] **[Super nice styles will be added in the future]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
